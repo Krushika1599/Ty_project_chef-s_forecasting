@@ -1,0 +1,12 @@
+# Dependency Directories
+/node_modules
+/frontend/node_modules
+
+# Logs and OS files
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Build/Dist folders
+/dist
+/build
