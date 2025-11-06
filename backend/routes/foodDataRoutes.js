@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 // IMPORTANT: Ensure this path correctly points to your Mongoose Model file
 const FoodData = require('../models/FoodData');
-const mlModel = require('../ml/linearRegression');
+const mlModel = require('../ml/linearRegressionModel');
 
 // Add new food data and retrain model
 router.post('/', async (req, res) => {
